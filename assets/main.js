@@ -233,13 +233,14 @@ addu.addEventListener("click", () => {
   let email = inp[2].value;
   let password = inp[3].value;
   let age = inp[5].value;
-
+  let user = 'user'
   const setData = {
     LastName,
     email,
     password,
     age,
     Name,
+    user,
   };
 
   const url = new URL("https://6748b0955801f5153591dd86.mockapi.io/myProject");
